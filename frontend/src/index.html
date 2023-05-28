@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>product</title>
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <div class="title">
+          <a id="nav-title" href="/#/">Products</a>
+        </div>
+
+        <!-- 장바구니 수정 -->
+        <div>
+          <a href="/#/cart">장바구니 <span id="cart-cnt">0</span>개 </a>
+        </div>
+      </header>
+
+      <!-- 상품 컨테이너 -->
+      <main id="main-container"><ul id="products"></ul></main>
+
+      <!-- 페이징 -->
+      <div id="pagination"></div>
+    </div>
+  </body>
+</html>
